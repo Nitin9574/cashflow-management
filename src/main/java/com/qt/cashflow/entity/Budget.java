@@ -13,6 +13,7 @@ public class Budget {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+
     private String food;
     private String fuel;
     private String groceries;

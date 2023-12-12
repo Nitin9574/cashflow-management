@@ -17,6 +17,7 @@ public class BudgetController {
     @GetMapping("/get")
     public List<Budget> getAllBudgets() {
         return budgetService.getAllBudgets();
+        System.out.println("test vhjvdsjchyvbd");
     }
 
     @PutMapping("/{id}")
